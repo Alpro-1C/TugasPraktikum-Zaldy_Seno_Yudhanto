@@ -13,13 +13,13 @@ int main(){
     cout << "Masukan Batas Bilangan Untuk Deret Fibonaci:";
     cin >> n;
     //memanggil suku pertama dari sebiah bilangan
-    cout << u1;
+    cout << u1 << " ";
     //pengulangan, dimana menginisialisasi bahwa i=1, lalu pengkondisian dimana jika i<n maka i akan di increment-kan
     for(int i = 1;i < n; i++){
         //pengoprasian untuk menambah u1 dengan u2
         un = u1+u2;
         //memanggil variabel un yang sudah di oprasikan
-        cout << un;
+        cout << un << " ";
         //mendeklarasikan ulang agar bisa mendapat u berikutnya atau suku berikutnya agar terus bertambag
         u2 = u1;
         u1 = un;
